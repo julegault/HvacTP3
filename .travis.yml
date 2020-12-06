@@ -6,4 +6,4 @@ service:
 script: 
   - cd "HVAC Controller"
   - mvn test
-  - docker build -t hvac
+  - docker build -t hvac .
