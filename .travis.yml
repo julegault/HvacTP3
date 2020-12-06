@@ -5,4 +5,4 @@ service:
   - docker
 script: 
   - cd "HVAC Controller"
-  - mvn test
+  - docker build -t julegault/HVAC_Controller:1.0-SNAPSHOT .
