@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
 Main-Class: Main
-Class-Path: reactive-streams-1.0.2.jar okio-1.14.0.jar okhttp-3.11.0.jar
-  gson-2.8.5.jar slf4j-api-1.7.25.jar signalr-5.0.0.jar rxjava-2.2.3.jar
+Class-Path: slf4j-api-1.7.25.jar gson-2.8.5.jar okio-1.14.0.jar signalr-
+ 5.0.0.jar rxjava-2.2.3.jar reactive-streams-1.0.2.jar okhttp-3.11.0.jar
 

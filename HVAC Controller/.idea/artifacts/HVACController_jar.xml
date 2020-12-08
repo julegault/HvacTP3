@@ -1,20 +1,20 @@
 <component name="ArtifactManager">
-  <artifact name="HVACController:jar">
+  <artifact build-on-make="true" name="HVACController:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/HVACController_jar</output-path>
     <root id="root">
-      <element id="archive" name="HVAC Controller.jar">
+      <element id="archive" name="HVACController.jar">
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
-        <element id="module-output" name="HVAC Controller" />
+        <element id="module-output" name="HVACController" />
       </element>
-      <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
-      <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.14.0" />
-      <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.11.0" />
-      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
       <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+      <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.14.0" />
       <element id="library" level="project" name="Maven: com.microsoft.signalr:signalr:5.0.0" />
       <element id="library" level="project" name="Maven: io.reactivex.rxjava2:rxjava:2.2.3" />
+      <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
+      <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.11.0" />
     </root>
   </artifact>
 </component>
