@@ -14,4 +14,4 @@ FROM openjdk:16-slim
 COPY --from=MAVEN_BUILD /target/HVAC_Controller-1.0-SNAPSHOT.jar /hvac.jar
  
 # set the startup command to execute the jar
-CMD ["java", "-cp", ".\HVAC_Controller-1.0-SNAPSHOT.jar Main"]
+CMD ["java", "-cp", "hvac.jar Main"]
