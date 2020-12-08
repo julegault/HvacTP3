@@ -11,7 +11,8 @@ RUN mvn clean package
 FROM openjdk:16-slim
  
 # copy only the artifacts we need from the first stage and discard the rest
-COPY --from=MAVEN_BUILD /target/HVAC_Controller-1.0-SNAPSHOT.jar /hvac.jar
- 
+#ADD --from=MAVEN_BUILD /out/artifacts/HVACController_jar /
+COPY . /
+
 # set the startup command to execute the jar
-CMD ["java", "-cp", "hvac.jar Main"]
+CMD ["java", "-jar", "HVACController.jar"]
